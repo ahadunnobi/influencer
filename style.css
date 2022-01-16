@@ -199,7 +199,7 @@ contact css
 
 footer{
     margin-top: 50px;
-    height: 250px;
+    height: 240px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -245,20 +245,18 @@ navbar
 responsive css 
 -------------------------*/
 
-@media (max-width:680px){
-    .gallery{
+@media (max-width:950px){
+    .feature,
+    .gallery,
+    .contact{
         grid-template-columns: 1fr 1fr;
     }
     .banner-left h1{
         font-size: 35px;
     }
-    .brands{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 }
 
-@media (max-width:800px){
+@media (max-width:680px){
     .banner{
         grid-template-columns: 1fr;
         height: fit-content;
@@ -266,7 +264,7 @@ responsive css
     .feature,
     .gallery,
     .contact{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .photo{
 
